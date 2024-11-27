@@ -67,14 +67,23 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav mx-auto">
-                            <a href="index.html" class="nav-item nav-link active">Home</a>
-                            <a href="about.html" class="nav-item nav-link active">About</a>
-                            <a href="service.html" class="nav-item nav-link">Services</a>
-                            <a href="program.html" class="nav-item nav-link">Programs</a>
-                            <a href="event.html" class="nav-item nav-link">Events</a>
-                           
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
-                        </div>
+    <a href="index.html" class="nav-item nav-link active">Home</a>
+    <a href="program.html" class="nav-item nav-link">Programs</a>
+    <!-- Dropdown Menu for About -->
+    <div class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" id="teamDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="teamDropdown">
+            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+            <li><a class="dropdown-item" href="team.html">Team Member</a></li>
+            <li><a class="dropdown-item" href="message.html">Message</a></li>
+        </ul>
+    </div>
+    <a href="contact.html" class="nav-item nav-link">Contact</a>
+    <a href="event.html" class="nav-item nav-link">Events</a>
+</div>
+
                         <div class="d-flex me-4">
                             <div id="phone-tada" class="d-flex align-items-center justify-content-center">
                                 <a href="" class="position-relative wow tada" data-wow-delay=".9s" >
@@ -113,7 +122,7 @@
         <!-- Hero End -->
 
 
-        <!-- Blog Start-->
+        <!-- Gallery Start-->
         <div class="container-fluid blog py-5">
             <div class="container py-5">
                 <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
@@ -123,7 +132,7 @@
                 <div class="row g-5 justify-content-center">
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
                         <div class="blog-item rounded-bottom">
-                            <div class="blog-img overflow-hidden position-relative img-border-radius">
+                            <div class="blog-img overflow-hidden  img-border-radius">
                                 <img src="img/blog-1.jpg" class="img-fluid w-100" alt="Image">
                             </div>
                             <div class="d-flex justify-content-between px-4 py-3 bg-light border-bottom border-primary blog-date-comments">
@@ -134,7 +143,7 @@
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.3s">
                         <div class="blog-item rounded-bottom">
-                            <div class="blog-img overflow-hidden position-relative img-border-radius">
+                            <div class="blog-img overflow-hidden  img-border-radius">
                                 <img src="img/blog-2.jpg" class="img-fluid w-100" alt="Image">
                             </div>
                             <div class="d-flex justify-content-between px-4 py-3 bg-light border-bottom border-primary blog-date-comments">
@@ -144,7 +153,7 @@
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-4 wow ">
                         <div class="blog-item rounded-bottom">
-                            <div class="blog-img overflow-hidden position-relative img-border-radius">
+                            <div class="blog-img overflow-hidden  img-border-radius">
                                 <img src="img/blog-3.jpg" class="img-fluid w-100" alt="Image">
                             </div>
                             <div class="d-flex justify-content-between px-4 py-3 bg-light border-bottom border-primary blog-date-comments">
@@ -154,177 +163,72 @@
                 </div>
             </div>
         </div>
-        <!-- Blog End-->
-
-
-        <!-- Team Start-->
-        <div class="container-fluid team py-5">
+        <!-- Gallery End-->
+        
+        <!-- Service Start -->
+        <div class="container-fluid service py-5">
             <div class="container py-5">
-                <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Our Team</h4>
-                    <h1 class="mb-5 display-3">Meet With Our Expert Team</h1>
+                <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
+                    <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">What We Do</h4>
+                    <h1 class="mb-5 display-3">Thanks To Choose Our Institute</h1>
                 </div>
-                <div class="row g-5 justify-content-center">
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
-    <div class="team-item border border-primary img-border-radius overflow-hidden">
-        <img src="img/team-1.jpg" class="img-fluid w-100 team-image" alt="">
-        <div class="team-icon d-flex align-items-center justify-content-center">
-            <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" 
-               href="https://www.facebook.com/dilip.shrestha.50"><i class="fab fa-facebook-f"></i></a>   
-        </div>
-        <div class="team-content text-center py-3">
-            <h4 class="text-primary">Nakagawa Yoji</h4>
-            <p class="text-muted mb-2">CEO</p>
-        </div>
-    </div>
-</div>   
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.3s">
-                        <div class="team-item border border-primary img-border-radius overflow-hidden">
-                            <img src="img/team-2.jpg" class="img-fluid w-100" alt="">
-                            <div class="team-icon d-flex align-items-center justify-content-center">
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" 
-                                   href=""><i class="fab fa-facebook-f"></i></a>
-                            </div>
-                            <div class="team-content text-center py-3">
-                                <h4 class="text-primary">Manami Khawaguchi</h4>
-                                <p class="text-muted mb-2">Manager</p>
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="text-center border-primary border bg-white service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-inner">
+                                    <div class="p-4"><i class="fas fa-graduation-cap fa-6x text-primary"></i></div>
+                                    <a href="#" class="h4">Study Visa</a>
+                                    <p class="my-3">We Sopprt Everything related to Study Visa</p>
+                                   
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="team-item border border-primary img-border-radius overflow-hidden">
-                            <img src="img/team-3.jpg" class="img-fluid w-100" alt="">
-                            <div class="team-icon d-flex align-items-center justify-content-center">
-                               
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="https://www.facebook.com/Sthadks"><i class="fab fa-facebook-f"></i></a>
-                             
-                            </div>
-                            <div class="team-content text-center py-3">
-                                <h4 class="text-primary">Dilip Shrestha</h4>
-                                <p class="text-muted mb-2">Director</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.7s">
-                        <div class="team-item border border-primary img-border-radius overflow-hidden">
-                            <img src="img/team-4.jpg" class="img-fluid w-100" alt="">
-                            <div class="team-icon d-flex align-items-center justify-content-center">
-                        
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="https://www.facebook.com/subol.karki"<i class="fab fa-facebook-f"></i></a>
-                                
-                            </div>
-                            <div class="team-content text-center py-3">
-                                <h4 class="text-primary">Subol Karki</h4>
-                                <p class="text-muted mb-2">Principal</p>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeIn" data-wow-delay="0.3s">
+                        <div class="text-center border-primary border bg-white service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-inner">
+                                    <div class="p-4"><i class="fas fa-language fa-6x text-primary"></i></div>
+                                    <a href="#" class="h4">Online Japanese Classes</a>
+                                    <p class="my-3">We Provide online and offline classes
+.</p>
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
-                    
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="team-item border border-primary img-border-radius overflow-hidden">
-                            <img src="img/team-5.jpg" class="img-fluid w-100" alt="">
-                            <div class="team-icon d-flex align-items-center justify-content-center">
-                               
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="https://www.facebook.com/kanchha.lama.52"><i class="fab fa-facebook-f"></i></a>
-                                
-                            </div>
-                            <div class="team-content text-center py-3">
-                                <h4 class="text-primary">&nbsp;&nbsp;Lama Tamang Kancha</h4>
-                                <p class="text-muted mb-2">Senior Advisor</p>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="text-center border-primary border bg-white service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-inner">
+                                    <div class="p-4"><i class="fas fa-users fa-6x text-primary"></i></div>
+                                    <a href="#" class="h4">Expert Teacher</a>
+                                    <p class="my-3">We are exprience in Japanese teaching.</p>
+                                   
+                                </div>
                             </div>
                         </div>
                     </div>
-                        
-                        
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="team-item border border-primary img-border-radius overflow-hidden">
-                            <img src="img/team-6.jpg" class="img-fluid w-100" alt="">
-                            <div class="team-icon d-flex align-items-center justify-content-center">
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="https://www.facebook.com/niranjan.gautam.777"><i class="fab fa-facebook-f"></i></a>
-                            </div>
-                            <div class="team-content text-center py-3">
-                                <h4 class="text-primary">Nirajan Goutam</h4>
-                                <p class="text-muted mb-2">Advisor</p>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeIn" data-wow-delay="0.7s">
+                        <div class="text-center border-primary border bg-white service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-inner">
+                                    <div class="p-4"><i class="fas fa-passport fa-6x text-primary"></i></div>
+                                    <a href="#" class="h4">Tourist Visa</a>
+                                    <p class="my-3">We Sopprt Everything related to Tourist Visa.</p>
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="team-item border border-primary img-border-radius overflow-hidden">
-                            <img src="img/team-7.jpg" class="img-fluid w-100" alt="">
-                            <div class="team-icon d-flex align-items-center justify-content-center">
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="https://www.facebook.com/laxman.saud.31"><i class="fab fa-facebook-f"></i></a>
-                            </div>
-                            <div class="team-content text-center py-3">
-                                <h4 class="text-primary">Laxman Saud</h4>
-                                <p class="text-muted mb-2">Advisor</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="team-item border border-primary img-border-radius overflow-hidden">
-                            <img src="img/team-8.jpg" class="img-fluid w-100" alt="">
-                            <div class="team-icon d-flex align-items-center justify-content-center">
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href="https://www.facebook.com/chhambahadur.thapa"><i class="fab fa-facebook-f"></i></a>
-                            </div>
-                            <div class="team-content text-center py-3">
-                                <h4 class="text-primary">Cham Bahadur Thapa</h4>
-                                <p class="text-muted mb-2">Advisor</p>
-                            </div>
-                        </div>
-                    </div>
-            
-
-                    
-                    
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="team-item border border-primary img-border-radius overflow-hidden">
-                            <img src="img/team-12.jpg" class="img-fluid w-100" alt="">
-                            <div class="team-icon d-flex align-items-center justify-content-center">
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                            </div>
-                            <div class="team-content text-center py-3">
-                                <h4 class="text-primary">Dipendra Shrestha</h4>
-                                <p class="text-muted mb-2">Managing Director</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
-                    
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="team-item border border-primary img-border-radius overflow-hidden">
-                            <img src="img/team-10.jpg" class="img-fluid w-100" alt="">
-                            <div class="team-icon d-flex align-items-center justify-content-center">
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                            </div>
-                            <div class="team-content text-center py-3">
-                                <h4 class="text-primary">Suman Laudari</h4>
-                                <p class="text-muted mb-2">Managing Director</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="team-item border border-primary img-border-radius overflow-hidden">
-                            <img src="img/team-11.jpg" class="img-fluid w-100" alt="">
-                            <div class="team-icon d-flex align-items-center justify-content-center">
-                                <a class="share-link btn btn-primary btn-md-square text-white rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                            </div>
-                            <div class="team-content text-center py-3">
-                                <h4 class="text-primary">Pabitra Shrestha</h4>
-                                <p class="text-muted mb-2">Front desk</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
                 </div>
             </div>
         </div>
-        <!-- Team End-->
+        <!-- Service End -->
+
+
+       
 
 
        
@@ -339,8 +243,7 @@
                             <h2 class="fw-bold mb-3"><span class="text-primary mb-0">Desti</span><span class="text-secondary">Japan</span></h2>
                             <p class="mb-4">We are a well-established company in Japan with extensive experience across various sectors, including full-time job support, part-time opportunities for students, real estate, cleaning services, and more.</p>
                             <div class="border border-primary p-3 rounded bg-light">
-                                <h1 class="mb-3" style="font-size: 20px; font-weight: bold;">Contact Now &rarr;</h1>
-
+                            <a href="contact.html" class="btn btn-primary px-4 py-3 px-md-5 me-4 btn-border-radius">Contact Now </a>
                                 
                             </div>
                         </div>

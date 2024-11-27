@@ -66,14 +66,23 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav mx-auto">
-                            <a href="index.html" class="nav-item nav-link active">Home</a>
-                            <a href="about.html" class="nav-item nav-link active">About</a>
-                            <a href="service.html" class="nav-item nav-link">Services</a>
-                            <a href="program.html" class="nav-item nav-link">Programs</a>
-                            <a href="event.html" class="nav-item nav-link">Events</a>
-                           
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
-                        </div>
+    <a href="index.html" class="nav-item nav-link active">Home</a>
+    <a href="program.html" class="nav-item nav-link">Programs</a>
+    <!-- Dropdown Menu for About -->
+    <div class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" id="teamDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="teamDropdown">
+            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+            <li><a class="dropdown-item" href="team.html">Team Member</a></li>
+            <li><a class="dropdown-item" href="message.html">Message</a></li>
+        </ul>
+    </div>
+    <a href="contact.html" class="nav-item nav-link">Contact</a>
+    <a href="event.html" class="nav-item nav-link">Events</a>
+</div>
+
                         <div class="d-flex me-4">
                             <div id="phone-tada" class="d-flex align-items-center justify-content-center">
                                 <a href="" class="position-relative wow tada" data-wow-delay=".9s" >
